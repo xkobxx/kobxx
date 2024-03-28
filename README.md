@@ -8,7 +8,6 @@ This repository contains the source code for my creative web design agency. The 
 - Clean and visually appealing user interface
 - Showcase of the agency's portfolio and past projects
 - Contact form for potential clients to get in touch
-- Blog section with articles and insights on web design and development
 - Smooth scrolling and animations for an engaging user experience
 
 ## Technologies Used
