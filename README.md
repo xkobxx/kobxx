@@ -15,8 +15,8 @@ This repository contains the source code for my creative web design agency. The 
 
 - HTML5
 - CSS3 (with a CSS preprocessor like Sass or Less)
-- JavaScript (with a modern framework like React, Vue, or Angular)
-- A server-side language (e.g., Node.js and PHP) for handling server-side operations
+- JavaScript
+- A server-side language: PHP
 
 ## Contributing
 
