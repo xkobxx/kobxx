@@ -1,0 +1,252 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="author" content="Cobsons.com">
+    <link rel="shortcut icon" href="favicon.png">
+
+    <meta name="description" content="Viable Website For Your Business">
+    <meta name="keywords" content="bootstrap, bootstrap5, web design, website development">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Afacad:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://unpkg.com/mouse-follower@1/dist/mouse-follower.min.css">
+    <script src="https://unpkg.com/mouse-follower@1/dist/mouse-follower.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+
+    <link rel="stylesheet" href="fonts/icomoon/style.css">
+    <link rel="stylesheet" href="fonts/feather/style.css">
+
+    <link rel="stylesheet" href="css/tiny-slider.css">
+    <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="css/glightbox.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Cobsons Web Studios &mdash; Viable Website For Your Business</title>
+</head>
+<body>
+    <div class="site-mobile-menu site-navbar-target">
+        <div class="site-mobile-menu-header">
+            <div class="site-mobile-menu-close">
+                <span class="icofont-close js-menu-toggle"></span>
+            </div>
+        </div>
+        <div class="site-mobile-menu-body"></div>
+    </div>
+
+    <nav class="site-nav">
+        <div class="container">
+            <div class="site-navigation">
+                <a href="index.html" class="logo m-0"><img id="sitelogomain" src="logo.png" alt="Cobsons Web Studios Logo"></a>
+
+                <ul class="js-clone-nav d-none d-lg-inline-block text-start site-menu float-end">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li class="active"><a href="contact.html">Contact</a></li>
+                    <li><button class="button-57" role="button"><a href="contact.html"><span class="text">Start a project</span><span>Let's talk</span></a></button></li>
+                </ul>
+
+                <a href="#" class="burger ms-auto float-end site-menu-toggle mt-2 js-menu-toggle d-inline-block d-lg-none light" data-toggle="collapse" data-target="#main-navbar">
+                    <span></span>
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="hero v-h-full overlay">
+        <div class="img-bg rellax">
+            <img src="images/hero-2-min.jpg" alt="Hero Image" class="img-fluid">
+        </div>
+        <div class="container">
+            <div class="row align-items-center v-h-full">
+                <div class="col-lg-7 col-xxl-6 mx-auto text-center" id="text-hd">
+                    <h1 class="heading-2-cnt text-white mb-3" data-aos="fade-up">Let's collaborate to create something extraordinary</h1>
+                    <p data-aos="fade-up" data-aos-delay="200" class="text-white lead mb-4" id="cont-txt">Kickstart your project by completing the form below, and our team will connect with you within 48 business hours.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section section-contact m-md-5 px-md-5">
+        <div class="container">
+            <h2 class="cnt-h2">Any question? Fill the contact form</h2>
+            <form method="POST" action="connect.php" class="form-contact">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="form-group">
+                            <input type="text" name="fullname" class="form-control" placeholder="Your name" required>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="form-group">
+                            <input type="email" name="email" class="form-control" placeholder="Your email" required>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-12">
+                    <div class="form-group">
+                        <div class="form-group">
+                            <label for="service">What are you looking to get done?</label>
+                            <select class="form-control" name="service" id="service" required>
+                                <option value="">Select an option</option>
+                                <option value="web-design">Web Design</option>
+                                <option value="wordpress-services">WordPress Services</option>
+                                <option value="ecommerce-website">Ecommerce Website</option>
+                                <option value="seo">SEO</option>
+                                <option value="ui-ux-design">UI/UX Design</option>
+                                <option value="webflow-services">Webflow Services</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-12">
+                    <div class="form-group">
+                        <textarea rows="10" name="message" cols="10" class="form-control" placeholder="Your message" required></textarea>
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <input type="submit" name="submit" class="btn btn-black" value="Send message">
+                </div>
+            </form>
+            <div id="message-container"></div>
+        </div>
+    </div>
+
+	<div class="section">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-4 pe-lg-5" data-aos="fade-up">
+					<span class="subheading d-inline-block mb-2">We love to design</span>
+					<h2 class="mb-4">Elevating Brands Through Superior Website Design</h2>
+					<p class="mb-5">A website's first impression greatly impacts visitor perception. Instead of playing it safe with mediocre design, use your online presence as a chance to captivate your audience by pushing creative boundaries. When brands are bold and break out of their comfort zones creatively, they attract more supporters.</p>
+					<p data-aos="fade-up" class="d-flex" data-aos-delay="200"><button class="button-57" role="button"><a href="contact.html"></a><span class="text">Let's get started</span><span>Let's talk</span></button></p>
+				</div>
+				<div class="col-lg-8">
+					<div class="row">
+						<div class="col-6 col-lg-6 mt-5" data-aos="fade-up" data-aos-delay="100">
+							<img src="images/img_v_5-5-min.jpg" alt="Image" class="img-fluid rounded">
+						</div>
+						<div class="col-6 col-lg-6" data-aos="fade-up" data-aos-delay="200">
+							<img src="images/img_v_5-6-min.jpg" alt="Image" class="img-fluid rounded">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+    <div class="site-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="widget">
+                        <h3>Contact</h3>
+                        <address>Parcel Flow, Suite 10, <br>44-46 Elmwood Ave, Co. Antrim, <br>Belfast; BT9 6AZ</address>
+                        <ul class="list-unstyled links">
+                            <li><a href="tel://+447949570845">+44 794 957 0845</a></li>
+                            <li><a href="tel://+447572926145">+44 757 292 6145</a></li>
+                            <li><a href="mailto:info@cobsons.com">info@cobsons.com</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="widget">
+                        <h3>Sources</h3>
+                        <ul class="list-unstyled float-start links">
+                            <li><a href="#">About us</a></li>
+                            <li><a href="#">Services</a></li>
+                            <li><a href="#">Vision</a></li>
+                            <li><a href="#">Mission</a></li>
+                            <li><a href="#">Terms</a></li>
+                            <li><a href="#">Privacy</a></li>
+                        </ul>
+                        <ul class="list-unstyled float-start links">
+                            <li><a href="#">Partners</a></li>
+                            <li><a href="#">Business</a></li>
+                            <li><a href="#">Careers</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">FAQ</a></li>
+                            <li><a href="#">Creative</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="widget">
+                        <h3>Links</h3>
+                        <ul class="list-unstyled links">
+                            <li><a href="#">Our Vision</a></li>
+                            <li><a href="#">About us</a></li>
+                            <li><a href="#">Contact us</a></li>
+                        </ul>
+
+                        <ul class="list-unstyled social">
+                            <li><a href="#"><span class="icon-instagram"></span></a></li>
+                            <li><a href="#"><span class="icon-twitter"></span></a></li>
+                            <li><a href="#"><span class="icon-facebook"></span></a></li>
+                            <li><a href="#"><span class="icon-linkedin"></span></a></li>
+                            <li><a href="#"><span class="icon-pinterest"></span></a></li>
+                            <li><a href="#"><span class="icon-dribbble"></span></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mt-5">
+                <div class="col-12 text-center" id="txt-cnt-ft">
+                    <p class="mb-0">Copyright &copy;<script>document.write(new Date().getFullYear());</script>. All Rights Reserved. &mdash; <a href="https://cobsons.com">Cobsons Web Studios</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="overlayer"></div>
+    <div class="loader">
+        <div class="spinner-border" role="status">
+            <span class="visually-hidden">Loading...</span>
+        </div>
+    </div>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/tiny-slider.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/navbar.js"></script>
+    <script src="js/glightbox.min.js"></script>
+    <script src="js/rellax.min.js"></script>
+    <script src="js/custom.js"></script>
+    <script src="js/main.js"></script>
+
+    <script>
+        document.getElementById('contact-form').addEventListener('submit', function(event) {
+            event.preventDefault(); // Prevent the default form submission
+    
+            var form = event.target;
+            var formData = new FormData(form);
+    
+            // Send AJAX request
+            var xhr = new XMLHttpRequest();
+            xhr.open('POST', 'connect.php', true);
+            xhr.onreadystatechange = function() {
+                if (xhr.readyState === XMLHttpRequest.DONE && xhr.status === 200) {
+                    var response = JSON.parse(xhr.responseText);
+                    var messageContainer = document.getElementById('message-container');
+                    messageContainer.innerHTML = '<p>' + response.message + '</p>';
+                }
+            };
+            xhr.send(formData);
+        });
+    </script>
+</body>
+</html>
