@@ -10007,6 +10007,12 @@ a {
 .site-footer {
   font-size: 15px;
   color: #888;
+  background: url(images/dot-bg.png) repeat-x;
+  margin-top: 0;
+  border: 0;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
   padding: 70px 0; }
   .site-footer a {
     color: #777;
