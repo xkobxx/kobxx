@@ -44,6 +44,10 @@ body {
   color: #212529;
   background-color: #fff;
   -webkit-text-size-adjust: 100%;
+-webkit-text-size-adjust: 100%;
+-moz-text-size-adjust: 100%;
+-ms-text-size-adjust: 100%;
+text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
@@ -7530,9 +7534,8 @@ textarea.form-control-lg {
   .align-content-lg-stretch {
     -ms-flex-line-pack: stretch !important;
     align-content: stretch !important; }
-  .align-self-lg-auto {
+    .align-self-lg-auto {
     -ms-flex-item-align: auto !important;
-    -ms-grid-row-align: auto !important;
     align-self: auto !important; }
   .align-self-lg-start {
     -ms-flex-item-align: start !important;
@@ -7540,9 +7543,8 @@ textarea.form-control-lg {
   .align-self-lg-end {
     -ms-flex-item-align: end !important;
     align-self: flex-end !important; }
-  .align-self-lg-center {
+    .align-self-lg-center {
     -ms-flex-item-align: center !important;
-    -ms-grid-row-align: center !important;
     align-self: center !important; }
   .align-self-lg-baseline {
     -ms-flex-item-align: baseline !important;
@@ -10001,13 +10003,13 @@ a {
   transition: .3s all ease; }
 
 .grayscale:hover img {
-  filter: none;
-  -webkit-filter: grayscale(100%); }
+  -webkit-filter: grayscale(100%);
+  filter: none; }
 
 .site-footer {
   font-size: 15px;
   color: #888;
-  background: url(images/dot-bg.png) repeat-x;
+  background-image: url(images/dot-bg.png) repeat-x;
   margin-top: 0;
   border: 0;
   position: relative;
