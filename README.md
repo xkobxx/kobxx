@@ -30,4 +30,4 @@ This project is licensed under the [MIT License](LICENSE).
 For more information or inquiries, please contact the web design agency at:
 
 - Email: hello@cobsosns.com
-- Website: https://www.cobsosns.com
+- Website: https://www.cobsons.com
